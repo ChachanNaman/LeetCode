@@ -30,7 +30,7 @@ public:
         
         pair<bool , int> ans;
         ans.second = max(left.second , right.second)+1;
-
+        
         if(leftans&& rightans&& diff){
            ans.first = true;
         }
