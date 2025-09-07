@@ -2,7 +2,7 @@ https://leetcode.com/problems/number-of-substrings-containing-all-three-characte
 
 class Solution {
 public:
-    int numberOfSubstrings(string s) {
+    int numberOfSubstrings(string s) {                    
         int lastseen[3] = {-1,-1,-1}; //index => a->0, b->1, c->2 
         int count = 0;
 
